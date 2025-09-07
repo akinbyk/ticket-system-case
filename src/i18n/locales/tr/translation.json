@@ -1,0 +1,93 @@
+{
+  "common": {
+    "language": "Dil",
+    "loading": "Yükleniyor…",
+    "error": "Hata",
+    "save": "Kaydet",
+    "send": "Gönder",
+    "cancel": "İptal",
+    "search": "Ara…",
+    "noData": "Henüz kayıt yok.",
+    "delete": "Sil"
+  },
+  "auth": {
+    "login": "Giriş",
+    "username": "Kullanıcı adı",
+    "password": "Şifre",
+    "loginButton": "Giriş Yap",
+    "loggingIn": "Giriş yapılıyor...",
+    "examples": "Örnekler",
+    "examplesPairs": "admin / 123456, ali / 1234",
+    "errorUserNotFound": "Kullanıcı bulunamadı",
+    "errorWrongPassword": "Şifre hatalı"
+  },
+  "navbar": {
+    "requests": "Talepler",
+    "newRequest": "Yeni Talep",
+    "profile": "Profil",
+    "login": "Giriş",
+    "logout": "Çıkış"
+  },
+  "requests": {
+    "title": "Talepler",
+    "filters": {
+      "allStatuses": "Tüm Durumlar",
+      "allPriorities": "Tüm Öncelikler"
+    },
+    "status": {
+      "open": "Açık",
+      "inProgress": "Çözülüyor",
+      "closed": "Kapalı"
+    },
+    "priority": {
+      "high": "Yüksek",
+      "medium": "Orta",
+      "low": "Düşük"
+    },
+    "code": "Kod",
+    "owner": "Sahip (userId)"
+  },
+  "detail": {
+    "title": "Talep Detayı",
+    "view":"Detay",
+    "status": "Durum",
+    "priority": "Öncelik",
+    "createdBy": "Oluşturan (userId)",
+    "createdAt": "Tarih",
+    "comments": "Yorumlar",
+    "noComments": "Henüz yorum yok.",
+    "commentPlaceholder": "Yorum yaz…",
+    "statusSelectTitle": "Durum seçin",
+    "statusSelectDisabled": "Sadece admin durumu değiştirebilir"
+  },
+  "newRequest": {
+    "fields": {
+      "title": "Başlık",
+      "priority": "Öncelik",
+      "description": "Açıklama"
+    },
+    "placeholders": {
+      "title": "Örn. Uygulama girişte hata veriyor",
+      "description": "Sorunu / isteği detaylı açıklayın…"
+    },
+    "aria": {
+      "priority": "Öncelik seçimi"
+    }
+  },
+  "validation": {
+    "titleRequired": "Lütfen bir başlık girin.",
+    "descriptionRequired": "Lütfen bir açıklama girin."
+  },
+  "profile": {
+    "title": "Profil",
+    "languageHint": "Dil seçimi uygulama genelinde geçerli olur.",
+    "savedLocally": "Bilgiler yerelde güncellendi.",
+    "activity": {
+      "title": "Aktivite Özeti",
+      "total": "Toplam Ticket",
+      "byStatus": "Duruma Göre",
+      "byPriority": "Önceliğe Göre",
+      "last7days": "Son 7 Gün"
+    }
+  }
+}

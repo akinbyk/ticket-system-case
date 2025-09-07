@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="90%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7F6FF"/>
+    </radialGradient>
+    <style>
+      .grid { stroke:#7F56D8; stroke-opacity:.10; fill:none; }
+      .ticket { stroke:#7F56D8; stroke-opacity:.12; fill:none; }
+    </style>
+  </defs>
+
+  <!-- arkaplan -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- dünya ızgara (enlem / boylam) -->
+  <g transform="translate(960 540) scale(1.05)">
+    <!-- meridyenler -->
+    <g class="grid">
+      <circle r="420"/><circle r="360"/><circle r="300"/><circle r="240"/><circle r="180"/><circle r="120"/><circle r="60"/>
+      <path d="M-480 0 H480"/>
+      <path d="M0 -480 V480"/>
+      <!-- ekstra meridyenler -->
+      <path d="M-415 -480 L-415 480"/><path d="M-350 -480 L-350 480"/><path d="M-285 -480 L-285 480"/>
+      <path d="M-220 -480 L-220 480"/><path d="M-155 -480 L-155 480"/><path d="M-90 -480 L-90 480"/>
+      <path d="M90 -480 L90 480"/><path d="M155 -480 L155 480"/><path d="M220 -480 L220 480"/>
+      <path d="M285 -480 L285 480"/><path d="M350 -480 L350 480"/><path d="M415 -480 L415 480"/>
+      <!-- enlemler -->
+      <path d="M-480 -415 H480"/><path d="M-480 -350 H480"/><path d="M-480 -285 H480"/>
+      <path d="M-480 -220 H480"/><path d="M-480 -155 H480"/><path d="M-480 -90 H480"/>
+      <path d="M-480 90 H480"/><path d="M-480 155 H480"/><path d="M-480 220 H480"/>
+      <path d="M-480 285 H480"/><path d="M-480 350 H480"/><path d="M-480 415 H480"/>
+    </g>
+  </g>
+
+  <!-- ticket konturları (birkaç konumda, çok soluk) -->
+  <g class="ticket" stroke-width="2">
+    <!-- sol üst -->
+    <path d="M220 180 h260 a16 16 0 0 1 16 16 v24 a24 24 0 0 0 0 48 v24 a16 16 0 0 1 -16 16 h-260 a16 16 0 0 1 -16 -16 v-24 a24 24 0 0 0 0 -48 v-24 a16 16 0 0 1 16 -16 z"/>
+    <path d="M300 220 h120" stroke-dasharray="8 10"/>
+    <!-- sağ orta -->
+    <path d="M1420 420 h260 a16 16 0 0 1 16 16 v24 a24 24 0 0 0 0 48 v24 a16 16 0 0 1 -16 16 h-260 a16 16 0 0 1 -16 -16 v-24 a24 24 0 0 0 0 -48 v-24 a16 16 0 0 1 16 -16 z"/>
+    <path d="M1500 460 h120" stroke-dasharray="8 10"/>
+    <!-- alt sol -->
+    <path d="M280 780 h300 a16 16 0 0 1 16 16 v24 a24 24 0 0 0 0 48 v24 a16 16 0 0 1 -16 16 h-300 a16 16 0 0 1 -16 -16 v-24 a24 24 0 0 0 0 -48 v-24 a16 16 0 0 1 16 -16 z"/>
+    <path d="M360 820 h140" stroke-dasharray="8 10"/>
+  </g>
+</svg>

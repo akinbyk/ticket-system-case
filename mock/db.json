@@ -1,0 +1,450 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1",
+      "role": "admin",
+      "name": "Admin",
+      "avatar": "https://i.pravatar.cc/100?img=12"
+    },
+    {
+      "id": "2",
+      "username": "ali",
+      "password": "1234",
+      "role": "user",
+      "name": "Ali",
+      "avatar": "https://i.pravatar.cc/100?img=13"
+    }
+  ],
+  "requests": [
+    {
+      "id": "1",
+      "title": "Login sorunu",
+      "description": "Kullanıcı girişte hata alıyor",
+      "priority": "high",
+      "status": "Açık",
+      "code": "TCK-1001",
+      "userId": 2,
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "createdAt": "2025-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Performans iyileştirmesi",
+      "description": "Grafikler geç yükleniyor",
+      "priority": "high",
+      "status": "Çözülüyor",
+      "code": "TCK-1002",
+      "userId": 1,
+      "ownerName": "Admin",
+      "ownerAvatar": "",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "15f0",
+      "title": "deneme",
+      "description": "deneme",
+      "priority": "medium",
+      "code": "TCK-6196",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "24dd",
+      "title": "deneme 2",
+      "description": "deneme 2",
+      "priority": "low",
+      "code": "TCK-1781",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "3141",
+      "title": "deneme 3",
+      "description": "deneme 3",
+      "priority": "medium",
+      "code": "TCK-1628",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "0458",
+      "title": "deneme 4",
+      "description": "deneme 4",
+      "priority": "high",
+      "code": "TCK-1433",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "f2ba",
+      "title": "talep 1",
+      "description": "talep 1",
+      "priority": "medium",
+      "code": "TCK-6175",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "a835",
+      "title": "deneme 10",
+      "description": "deneme 10",
+      "priority": "medium",
+      "code": "TCK-8003",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-08-07T15:50:55.240Z"
+    },
+    {
+      "id": "1880",
+      "title": "deneme 222",
+      "description": "deneme 222",
+      "priority": "medium",
+      "code": "TCK-9419",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-08-07T15:50:55.240Z"
+    },
+    {
+      "id": "5d06",
+      "title": "e postam sıfırlandı",
+      "description": "e postama erişemiyorum",
+      "priority": "medium",
+      "code": "TCK-9357",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-03T15:50:55.240Z"
+    },
+    {
+      "id": "d065",
+      "title": "deneme 123",
+      "description": "deneme 123",
+      "priority": "high",
+      "code": "TCK-3929",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Açık",
+      "createdAt": "2025-09-06T05:50:55.240Z"
+    },
+    {
+      "id": "fd14",
+      "title": "logo programına uzaktan erişemiyorum",
+      "description": "merhaba konu hakkında desteklerinizi rica eder iyi çalışmalar dilerim",
+      "priority": "high",
+      "code": "TCK-5717",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "",
+      "status": "Çözülüyor",
+      "createdAt": "2025-09-07T13:50:55.240Z"
+    },
+    {
+      "id": "4cb7",
+      "title": "deneme admin",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "priority": "medium",
+      "code": "TCK-6744",
+      "userId": "1",
+      "ownerName": "Admin",
+      "ownerAvatar": "http://www.w3.org/2000/svg",
+      "status": "Açık",
+      "createdAt": "2025-09-07T15:20:55.240Z"
+    },
+    {
+      "id": "8cd3",
+      "title": "Lorem ipsum",
+      "description": "dolor sit amet",
+      "priority": "high",
+      "code": "TCK-4888",
+      "userId": "1",
+      "ownerName": "Admin",
+      "ownerAvatar": "hhttps://i.pravatar.cc/100?img=12",
+      "status": "Açık",
+      "createdAt": "2025-09-07T15:20:55.240Z"
+    },
+    {
+      "id": "cf56",
+      "title": "Hope",
+      "description": "I need help!",
+      "priority": "low",
+      "code": "TCK-8200",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "https://i.pravatar.cc/100?img=13",
+      "status": "Açık",
+      "createdAt": "2025-09-07T15:50:55.240Z"
+    },
+    {
+      "id": "aa1a",
+      "title": "lorem",
+      "description": "deneme deneme",
+      "priority": "medium",
+      "code": "TCK-4041",
+      "userId": "2",
+      "ownerName": "Ali",
+      "ownerAvatar": "https://i.pravatar.cc/100?img=13",
+      "status": "Kapalı",
+      "createdAt": "2025-09-07T16:55:31.758Z"
+    },
+    {
+      "id": "4e45",
+      "title": "son deneme",
+      "description": "Lorem ipsum dolor sit amet",
+      "priority": "high",
+      "code": "TCK-9928",
+      "userId": "1",
+      "ownerName": "Admin",
+      "ownerAvatar": "https://i.pravatar.cc/100?img=12",
+      "status": "Açık",
+      "createdAt": "2025-09-07T19:00:59.955Z"
+    },
+    {
+      "id": "9088",
+      "title": "deneme1",
+      "description": "111",
+      "priority": "medium",
+      "code": "TCK-5119",
+      "userId": "1",
+      "ownerName": "Admin",
+      "ownerAvatar": "https://i.pravatar.cc/100?img=12",
+      "status": "Açık",
+      "createdAt": "2025-09-07T19:04:45.016Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "requestId": 1,
+      "authorId": 1,
+      "authorName": "Admin",
+      "text": "Sorunu inceledim, logları bekliyorum.",
+      "createdAt": "2025-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "e783",
+      "requestId": "fd14",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "Merhaba konu üzerinde çalışmalar yapılmaktadır."
+    },
+    {
+      "id": "081a",
+      "requestId": "2",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "Sorun düzeltilmiştir."
+    },
+    {
+      "id": "6eae",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "ek: henüz düzelmedi"
+    },
+    {
+      "id": "62a0",
+      "requestId": "1",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d"
+    },
+    {
+      "id": "b8dc",
+      "requestId": "1",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "deneme"
+    },
+    {
+      "id": "0a75",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "aliii"
+    },
+    {
+      "id": "3bb3",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "deneme",
+      "CreatedAt": "2025-09-07T15:29:49.325Z"
+    },
+    {
+      "id": "6078",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "deneme",
+      "createdAt": "2025-09-07T15:32:25.758Z"
+    },
+    {
+      "id": "99e5",
+      "requestId": "aa1a",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "Ne durumda ?",
+      "createdAt": "2025-09-07T16:55:43.210Z"
+    },
+    {
+      "id": "003e",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "deneme",
+      "createdAt": "2025-09-07T16:58:37.212Z"
+    },
+    {
+      "id": "7060",
+      "requestId": "1",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "deneme2",
+      "createdAt": "2025-09-07T16:58:49.979Z"
+    },
+    {
+      "id": "7c57",
+      "requestId": "aa1a",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "?",
+      "createdAt": "2025-09-07T16:58:57.448Z"
+    },
+    {
+      "id": "2877",
+      "requestId": "aa1a",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "??",
+      "createdAt": "2025-09-07T16:59:37.484Z"
+    },
+    {
+      "id": "2bc1",
+      "requestId": "aa1a",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "Sorun giderilmiştir.",
+      "createdAt": "2025-09-07T18:52:54.210Z"
+    },
+    {
+      "id": "5e05",
+      "requestId": "4e45",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "deneme",
+      "createdAt": "2025-09-07T19:01:08.687Z"
+    },
+    {
+      "id": "3759",
+      "requestId": "4e45",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "deneme2",
+      "createdAt": "2025-09-07T19:03:29.641Z"
+    },
+    {
+      "id": "bbc0",
+      "requestId": "9088",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "de",
+      "createdAt": "2025-09-07T19:04:50.542Z"
+    },
+    {
+      "id": "0896",
+      "requestId": "cf56",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "de",
+      "createdAt": "2025-09-07T19:04:58.189Z"
+    },
+    {
+      "id": "6eb1",
+      "requestId": "0458",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d",
+      "createdAt": "2025-09-07T19:07:30.531Z"
+    },
+    {
+      "id": "9baf",
+      "requestId": "8cd3",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d",
+      "createdAt": "2025-09-07T19:10:59.668Z"
+    },
+    {
+      "id": "a068",
+      "requestId": "4cb7",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "de",
+      "createdAt": "2025-09-07T19:13:29.719Z"
+    },
+    {
+      "id": "42c7",
+      "requestId": "3141",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "de",
+      "createdAt": "2025-09-07T19:16:23.868Z"
+    },
+    {
+      "id": "d313",
+      "requestId": "5d06",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d",
+      "createdAt": "2025-09-07T19:17:36.707Z"
+    },
+    {
+      "id": "7c84",
+      "requestId": "1880",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d",
+      "createdAt": "2025-09-07T19:18:43.273Z"
+    },
+    {
+      "id": "bde0",
+      "requestId": "1880",
+      "authorId": "2",
+      "authorName": "Ali",
+      "text": "d",
+      "createdAt": "2025-09-07T19:19:33.236Z"
+    },
+    {
+      "id": "3c9b",
+      "requestId": "a835",
+      "authorId": "1",
+      "authorName": "Admin",
+      "text": "d",
+      "createdAt": "2025-09-07T19:20:52.990Z"
+    }
+  ]
+}

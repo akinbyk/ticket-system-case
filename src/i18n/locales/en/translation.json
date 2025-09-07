@@ -1,0 +1,94 @@
+{
+  "common": {
+    "language": "Language",
+    "loading": "Loading…",
+    "error": "Error",
+    "save": "Save",
+    "send": "Send",
+    "cancel": "Cancel",
+    "search": "Search…",
+    "noData": "No records yet.",
+    "delete": "Delete"
+  },
+  "auth": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "examples": "Examples",
+    "examplesPairs": "admin / 123456, ali / 1234",
+    "errorUserNotFound": "User not found",
+    "errorWrongPassword": "Wrong password"
+  },
+  "navbar": {
+    "requests": "Requests",
+    "newRequest": "New Request",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "requests": {
+    "title": "Requests",
+    "filters": {
+      "allStatuses": "All Statuses",
+      "allPriorities": "All Priorities"
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "closed": "Closed"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "code": "Code",
+    "owner": "Owner (userId)"
+  },
+  "detail": {
+    "title": "Request Detail",
+    "view":"Details",
+    "status": "Status",
+    "priority": "Priority",
+    "createdBy": "Created by (userId)",
+    "createdAt": "Date",
+    "comments": "Comments",
+    "noComments": "No comments yet.",
+    "commentPlaceholder": "Write a comment…",
+    "statusSelectTitle": "Select status",
+    "statusSelectDisabled": "Only admin can change"
+  },
+  "newRequest": {
+    "fields": {
+      "title": "Title",
+      "priority": "Priority",
+      "description": "Description"
+      
+    },
+    "placeholders": {
+      "title": "e.g., App throws error at login",
+      "description": "Describe the problem/request in detail…"
+    },
+    "aria": {
+      "priority": "Priority selection"
+    }
+  },
+  "validation": {
+    "titleRequired": "Please enter a title.",
+    "descriptionRequired": "Please enter a description."
+  },
+  "profile": {
+    "title": "Profile",
+    "languageHint": "Language selection applies across the app.",
+    "savedLocally": "Information updated locally.",
+    "activity": {
+      "title": "Activity Summary",
+      "total": "Total Tickets",
+      "byStatus": "By Status",
+      "byPriority": "By Priority",
+      "last7days": "Last 7 Days"
+    }
+  }
+}
