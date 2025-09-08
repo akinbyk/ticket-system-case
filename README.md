@@ -109,15 +109,7 @@ VITE_AUTH_STORAGE_KEY=helpticket.auth
 
 > **Not:** RTK Query `baseUrl` değeri `VITE_API_URL` üzerinden gelir (proje içinde `requestApi` servisiniz bu değeri kullanacak şekilde kurgulanmıştır).
 
----
 
-
-## 🛠️ Geliştirici İpuçları
-
-* **Bootstrap Icons**: Projede global yüklü → `bi bi-envelope-open` gibi sınıflarla kullanın.
-* **Renk Tutarlılığı**: `globals.css` içinde `--brand` ve `status-dot/pri-*` sınıfları ile kontrol edilir.
-* **Sayfalama**: Bootstrap Pagination mor tema ile özelleştirilmiştir.
-* **Avatarlar**: `MessageList`’te öncelik: mesajdaki avatar → `userMap`’teki `avatar` → giriş yapan kullanıcı (kendisiyse).
 
 ---
 
